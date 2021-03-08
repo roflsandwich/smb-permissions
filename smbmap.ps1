@@ -11,8 +11,6 @@ function GetShareNames ($ip){
     }
     return
 }
-
-
 if ($Args[0] -eq "-t"){
     $ip = $Args[1]
     GetShareNames($ip)
